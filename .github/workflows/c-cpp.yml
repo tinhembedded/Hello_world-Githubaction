@@ -11,8 +11,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
-      - name: install cppunit
+      - name: runnn
         run: |
+          ls -la
           chmod +x configure
           ./configure
           make
